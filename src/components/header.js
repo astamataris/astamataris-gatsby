@@ -32,11 +32,17 @@ const Header = ({ siteTitle }) => (
   // </header>
   <div className="grid-container">
     <header className="home-header">
-      <div>
-        <Image />
-      </div>
-      <div>
-        <h1>Andreas Stamataris</h1>
+      <div className="home-header home-header__container">
+        <div>
+          <Image />
+        </div>
+        <div>
+          <h1>Andreas Stamataris</h1>
+          <h2><span className="">Web</span><span className="web"> Developer</span> </h2>
+          <p>📍 Nicosia, Cyprus</p>
+          <p>🚀 Pixel Actions</p>
+          <p>🧡 Dogs, The Ocean, MMOs & Memes</p>
+        </div>
       </div>
     </header>
   </div>

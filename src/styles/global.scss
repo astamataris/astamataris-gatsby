@@ -1,19 +1,26 @@
 @import "variables.scss";
-@import url("https://fonts.googleapis.com/css?family=Cutive+Mono|Fredericka+the+Great|Knewave|Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cutive+Mono|Mansalva|Fredericka+the+Great|Knewave|Press+Start+2P&display=swap");
 
 body {
   background-color: $bg-color;
+  font-family: "Cutive Mono", monospace;
+  color: $green;
+  font-size: 18px;
 }
 
 h1,
 h2,
 h3,
 h4 {
-//   font-family: "Cutive Mono", monospace;
   font-family: "Press Start 2P", cursive;
   color: $orange;
-//   font-family: "Fredericka the Great", cursive;
-//   font-family: "Knewave", cursive;
+}
+.web {
+    // font-family: "Knewave", cursive;
+    //   font-family: "Fredericka the Great", cursive;
+    font-family: 'Mansalva', cursive;
+
+      font-size: 3rem;
 }
 .grid-container {
   max-width: 960px;
@@ -22,15 +29,20 @@ h4 {
 .home-header {
   display: flex;
   flex-direction: row;
-  max-width: 960px;
-  max-height: 80vh;
-  & > div {
-    flex: 1 50%;
-  }
-  img {
-    max-width: 100%;
-    border-radius: 50%;
-    max-height: 100%;
-    border: 2px solid $green;
+  height: 100vh;
+  &__container {
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    & > div {
+      flex: 1 calc(50% - 15px);
+      padding: 15px;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 50%;
+      max-height: 100%;
+      border: 2px solid $green;
+    }
   }
 }
