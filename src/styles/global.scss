@@ -1,0 +1,36 @@
+@import "variables.scss";
+@import url("https://fonts.googleapis.com/css?family=Cutive+Mono|Fredericka+the+Great|Knewave|Press+Start+2P&display=swap");
+
+body {
+  background-color: $bg-color;
+}
+
+h1,
+h2,
+h3,
+h4 {
+//   font-family: "Cutive Mono", monospace;
+  font-family: "Press Start 2P", cursive;
+  color: $orange;
+//   font-family: "Fredericka the Great", cursive;
+//   font-family: "Knewave", cursive;
+}
+.grid-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.home-header {
+  display: flex;
+  flex-direction: row;
+  max-width: 960px;
+  max-height: 80vh;
+  & > div {
+    flex: 1 50%;
+  }
+  img {
+    max-width: 100%;
+    border-radius: 50%;
+    max-height: 100%;
+    border: 2px solid $green;
+  }
+}
