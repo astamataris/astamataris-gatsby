@@ -6,6 +6,7 @@ body {
   font-family: "Cutive Mono", monospace;
   color: $green;
   font-size: 18px;
+  margin: 0;
 }
 
 h1,
@@ -45,4 +46,15 @@ h4 {
       border: 2px solid $green;
     }
   }
+}
+.navigator{
+    background-color: $blue;
+    color: $bg-color;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    &__container{
+        max-width: 960px;
+        margin: 0 auto;
+    }
 }

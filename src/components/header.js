@@ -40,6 +40,7 @@ const Header = ({ siteTitle }) => (
           <h1>Andreas Stamataris</h1>
           <h2><span className="">Web</span><span className="web"> Developer</span> </h2>
           <p>📍 Nicosia, Cyprus</p>
+          <p>⚙️ Wagtail, Foudation & Emberjs</p>
           <p>🚀 Pixel Actions</p>
           <p>🧡 Dogs, The Ocean, MMOs & Memes</p>
         </div>
