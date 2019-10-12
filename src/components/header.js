@@ -31,7 +31,7 @@ const Header = ({ siteTitle }) => (
   //   </div>
   // </header>
   <div className="grid-container">
-    <header className="home-header">
+    <header className="home-header" id="home-header">
       <div className="home-header home-header__container">
         <div>
           <Image />

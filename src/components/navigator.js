@@ -8,9 +8,9 @@ const Navigator = ({ }) => (
         <div className="navigator__container">
 
             <ul className="navigator__links">
-                <li><a  href="http://">Bio</a></li>
+                <li><a  href="#bio">Bio</a></li>
                 <li><a  href="http://">Projects</a></li>
-                <li><a  href="http://">Top</a></li>
+                <li><a  href="#home-header">Top</a></li>
             </ul>
         </div>
     </div>

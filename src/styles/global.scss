@@ -1,6 +1,8 @@
 @import "variables.scss";
 @import url("https://fonts.googleapis.com/css?family=Cutive+Mono|Mansalva|Fredericka+the+Great|Knewave|Press+Start+2P&display=swap");
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: $bg-color;
   font-family: "Cutive Mono", monospace;
@@ -15,6 +17,13 @@ h3,
 h4 {
   font-family: "Press Start 2P", cursive;
   color: $orange;
+}
+
+a{
+  color: $blue;
+  &:hover{
+    color: $purple;
+  }
 }
 .web {
   // font-family: "Knewave", cursive;
@@ -71,8 +80,11 @@ h4 {
       color: $bg-color;
       font-family: "Press Start 2P", cursive;
       text-decoration: none;
+      transition: .03s all ease;
+      padding: 3px;
       &:hover {
-        color: #3d4d67;
+        background-color: $bg-color;
+        color: $blue;
       }
     }
   }
