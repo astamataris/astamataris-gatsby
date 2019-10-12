@@ -17,11 +17,11 @@ h4 {
   color: $orange;
 }
 .web {
-    // font-family: "Knewave", cursive;
-    //   font-family: "Fredericka the Great", cursive;
-    font-family: 'Mansalva', cursive;
+  // font-family: "Knewave", cursive;
+  //   font-family: "Fredericka the Great", cursive;
+  font-family: "Mansalva", cursive;
 
-      font-size: 3rem;
+  font-size: 3rem;
 }
 .grid-container {
   max-width: 960px;
@@ -47,14 +47,33 @@ h4 {
     }
   }
 }
-.navigator{
-    background-color: $blue;
-    color: $bg-color;
-    position: fixed;
-    bottom: 0;
-    width: 100vw;
-    &__container{
-        max-width: 960px;
-        margin: 0 auto;
+.navigator {
+  background-color: $blue;
+  color: $bg-color;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  &__container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  &__links {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0;
+    li {
+      padding: 0 .5rem;
     }
+    li a {
+      color: $bg-color;
+      font-family: "Press Start 2P", cursive;
+      text-decoration: none;
+      &:hover {
+        color: #3d4d67;
+      }
+    }
+  }
 }

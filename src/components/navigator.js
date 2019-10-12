@@ -7,7 +7,11 @@ const Navigator = ({ }) => (
     <div className="navigator">
         <div className="navigator__container">
 
-            <h2>fdsa</h2>
+            <ul className="navigator__links">
+                <li><a  href="http://">Bio</a></li>
+                <li><a  href="http://">Projects</a></li>
+                <li><a  href="http://">Top</a></li>
+            </ul>
         </div>
     </div>
 )
