@@ -9,7 +9,7 @@ const Navigator = ({ }) => (
 
             <ul className="navigator__links">
                 <li><a  href="#bio">Bio</a></li>
-                <li><a  href="http://">Projects</a></li>
+                <li><a  href="#projects">Projects</a></li>
                 <li><a  href="#home-header">Top</a></li>
             </ul>
         </div>

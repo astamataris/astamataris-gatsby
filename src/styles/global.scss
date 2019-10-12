@@ -10,6 +10,9 @@ body {
   font-size: 18px;
   margin: 0;
 }
+section {
+  margin: 4rem 0;
+}
 
 h1,
 h2,
@@ -19,9 +22,9 @@ h4 {
   color: $orange;
 }
 
-a{
+a {
   color: $blue;
-  &:hover{
+  &:hover {
     color: $purple;
   }
 }
@@ -74,17 +77,52 @@ a{
     justify-content: center;
     padding-left: 0;
     li {
-      padding: 0 .5rem;
+      padding: 0 0.5rem;
     }
     li a {
       color: $bg-color;
       font-family: "Press Start 2P", cursive;
       text-decoration: none;
-      transition: .03s all ease;
+      transition: 0.03s all ease;
       padding: 3px;
       &:hover {
         background-color: $bg-color;
         color: $blue;
+      }
+    }
+  }
+}
+.projects {
+  h3{
+    text-align: center;
+    margin: 1.5rem 0;
+  }
+  &__list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    li {
+      background-color: #3d4d67;
+      padding: 1rem 2rem;
+      margin-bottom: 1rem;
+      box-shadow: 10px 16px 18px -5px rgba(0,0,0,0.75);
+      position: relative;
+      transition: .3s ease all;
+      &::before{
+        position: absolute;
+        content: '';
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 2px;
+        // width: 1;
+        overflow: hidden;
+        background: $orange;
+        opacity: 0;
+      }
+      &:hover::before{
+        opacity: 1;
       }
     }
   }
