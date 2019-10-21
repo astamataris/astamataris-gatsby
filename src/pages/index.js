@@ -1,6 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
-import Image from "../components/image"
+// import { Link } from "gatsby"
+// import Image from "../components/image"
 import Layout from "../components/layout"
 import Navigator from "../components/navigator"
 import Projects from "../components/projects"
@@ -11,8 +11,8 @@ const IndexPage = () => (
 
     <Layout>
       <SEO title="Home" />
-      <section >
-        <h2 id="bio" >Bio</h2>
+      <section id="bio">
+        <h2  >Bio</h2>
         <p>Hi! 👋 My name is Andreas Stamataris and I’m a recent Computer Science and Psychology graduate as you've probably read
           above. I did my bachelor’s in Psychology (BSc) at Royal Holloway University of London and my MSc in Computer Science
           at UCL, graduating in 2015 and 2016 respectively.
