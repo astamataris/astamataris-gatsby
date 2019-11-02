@@ -14,14 +14,13 @@ const IndexPage = () => (
       <section id="bio">
         <h2  >Bio</h2>
         <h3 className="text-green">Accademic Background</h3>
-        <p>Hi! 👋 My name is Andreas Stamataris and I’m a predominantly Front-end Web Developer. My accademic background is Computer Science and Psychology and I did my bachelor’s in Psychology (BSc) at Royal Holloway University of London and my MSc in Computer Science
+        <p>Hi! 👋 My name is Andreas Stamataris and I’m a Front-end Web Developer. My accademic background is Computer Science and Psychology and I did my bachelor’s in Psychology (BSc) at Royal Holloway University of London and my MSc in Computer Science
           at UCL. Graduating in 2015 and 2016 respectively.
         </p>
         <p> You're probably wondering how I transitioned from Psychology to Computer Science. During my second year of university
         I tried programming for fun and have been hooked ever since. My first steps involved teaching myself Python through
         an online course. I really enjoyed dismantling problems to component parts and then putting the pieces together to
-        form a solution. After my exposure to programming, I arranged an internship at an
-        <a href="http://www.acuity-intelligence.com/" target="_blank">eye tracking company</a>, something that combined both Psychology as well as programming. Utilising the knowledge
+        form a solution. After my exposure to programming, I arranged an internship at an <a href="http://www.acuity-intelligence.com/" target="_blank">eye tracking company</a>, something that combined both Psychology as well as programming. Utilising the knowledge
                           I gained from my internship and my skills in Python I created my own analytic algorithm to read blink information
                           from raw eye tracking data and used it in my final year project. During this time, it became apparent to me that
                           I enjoy programming more than psychology and that I would like to purse a career in that field instead.
