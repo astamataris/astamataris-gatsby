@@ -30,6 +30,9 @@ a {
     color: $purple;
   }
 }
+img{
+  max-width: 100%;
+}
 .web {
   // font-family: "Knewave", cursive;
   //   font-family: "Fredericka the Great", cursive;
@@ -146,4 +149,8 @@ a {
       }
     }
   }
+}
+.pic-container{
+   border: 2px solid $green;
+   padding: 8px;
 }

@@ -18,7 +18,7 @@ const Image = () => {
   //   query {
   //     placeholderImage: file(relativePath: { eq: "andreas.jpg" }) {
   //       childImageSharp {
-  //         fluid(maxWidth: 700) {
+  //         fluid(maxWidth: 960) {
   //           ...GatsbyImageSharpFluid
   //         }
   //       }

@@ -1,6 +1,8 @@
 // import { Link } from "gatsby"
 import React from "react"
 // import axios from 'axios';
+import travelorama_img from "../images/travelorama.jpg";
+import apron_img from "../images/apron.jpg";
 
 
 class Project extends React.Component {
@@ -56,10 +58,21 @@ class Project extends React.Component {
                 <p>
                     A travel-agency website leveraging Amadeus' iframes to look for flights and hotels. The site also supports insurance and car bookings using 2 other api iframes. The site was built with Angular 2+.
                 </p>
+                <div className="pic-container">
+                    <a href="https://travelorama.com.cy" target="_blank" >
+
+                        <img src={travelorama_img} alt="Travelorama" />
+                    </a>
+                </div>
 
                 <h3 className="text-green">Apron Cooking Stories</h3>
 
                 <p>A static website using Foundation's panini framework to give an online presence to the restaurant.</p>
+                <div className="pic-container">
+                    <a href="https://apron.kitchen" target="_blank" >
+                        <img src={apron_img} alt="Apron" />
+                    </a>
+                </div>
 
             </section>
         )
