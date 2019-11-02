@@ -14,11 +14,11 @@ class Project extends React.Component {
 
         // })
         fetch('https://swapi.co/api/people')
-        // fetch('https://api.github.com/users/astamataris/repos')
+            // fetch('https://api.github.com/users/astamataris/repos')
             .then(repos => repos.json())
             .then((json) => {
                 console.log(json);
-                this.setState({repos: json})
+                this.setState({ repos: json.results })
                 // console.log(json['results']);
 
             })
@@ -46,18 +46,20 @@ class Project extends React.Component {
     //     return repositories;
     // }
     render() {
-        // const repos = this.state.repos;
-        
+        const repositories = this.state.repos;
+
         // const repos = this.state.repos;
         return (
             <section className="projects">
-                <h2 id="projects">Projects</h2>
-                <h3>Public Repos</h3>
-                <ul className="projects__list">
-                    {/* {this.state.repos.map(repo =><a href="{repo.html_url}" key={repo.name}> <li  >{repo.name}</li></a> )} */}
+                <h2 id="projects">Live Projects</h2>
+                <h3 className="text-green">Travelorama</h3>
+                <p>
+                    A travel-agency website leveraging Amadeus' iframes to look for flights and hotels. The site also supports insurance and car bookings using 2 other api iframes. The site was built with Angular 2+.
+                </p>
 
-                </ul>
-                <h3>Live Projects</h3>
+                <h3 className="text-green">Apron Cooking Stories</h3>
+
+                <p>A static website using Foundation's panini framework to give an online presence to the restaurant.</p>
 
             </section>
         )

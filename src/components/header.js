@@ -39,10 +39,10 @@ const Header = ({ siteTitle }) => (
         <div>
           <h1>Andreas Stamataris</h1>
           <h2><span className="">Web</span><span className="web"> Developer</span> </h2>
-          <p><span role="img" aria-label="pin">📍  </span>Nicosia, Cyprus</p>
-          <p><span role="img" aria-label="cog">⚙️ </span> Wagtail, Foudation & Emberjs</p>
-          <p><span role="img" aria-label="rocket">🚀  </span>Pixel Actions</p>
-          <p><span role="img" aria-label="orange heart">🧡  </span>Dogs, The Ocean, MMOs & Memes</p>
+          <p class="text-green"><span role="img" aria-label="pin">📍  </span>Nicosia, Cyprus</p>
+          <p class="text-green"><span role="img" aria-label="cog">⚙️ </span> Wagtail, Foudation & Emberjs</p>
+          <p class="text-green"><span role="img" aria-label="rocket">🚀  </span>Pixel Actions</p>
+          <p class="text-green"><span role="img" aria-label="orange heart">🧡  </span>Dogs, The Ocean, MMOs & Memes</p>
         </div>
       </div>
     </header>

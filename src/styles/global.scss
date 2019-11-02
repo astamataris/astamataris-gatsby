@@ -1,14 +1,15 @@
 @import "variables.scss";
-@import url("https://fonts.googleapis.com/css?family=Cutive+Mono|Mansalva|Fredericka+the+Great|Knewave|Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Fira+Mono|Mansalva|Fredericka+the+Great|Knewave|Press+Start+2P&display=swap");
 html {
   scroll-behavior: smooth;
 }
 body {
   background-color: $bg-color;
-  font-family: "Cutive Mono", monospace;
-  color: $green;
-  font-size: 18px;
-  font-weight: bold;
+  font-family: "Fira Mono", monospace;
+  font-size: 16px;
+  color: #e6e6e6;
+  line-height: 1.4;
+  // font-weight: bold;
   margin: 0;
 }
 section {
@@ -35,6 +36,9 @@ a {
   font-family: "Mansalva", cursive;
 
   font-size: 3rem;
+}
+.text-green{
+  color: $green;
 }
 .grid-container {
   max-width: 960px;
@@ -95,7 +99,6 @@ a {
 }
 .projects {
   h3{
-    text-align: center;
     margin: 1.5rem 0;
   }
   &__list {
