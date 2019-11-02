@@ -41,7 +41,7 @@ const Header = ({ siteTitle }) => (
           <h2><span className="">Web</span><span className="web"> Developer</span> </h2>
           <p class="text-green"><span role="img" aria-label="pin">📍  </span>Nicosia, Cyprus</p>
           <p class="text-green"><span role="img" aria-label="cog">⚙️ </span> Wagtail, Foudation & Emberjs</p>
-          <p class="text-green"><span role="img" aria-label="rocket">🚀  </span>Pixel Actions</p>
+          <p class="text-green"><span role="img" aria-label="rocket">🚀  </span><a href="https://pixelactions.com" traget="_blank" className="text-green">Pixel Actions</a></p>
           <p class="text-green"><span role="img" aria-label="orange heart">🧡  </span>Dogs, The Ocean, MMOs & Memes</p>
         </div>
       </div>

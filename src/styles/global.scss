@@ -37,7 +37,7 @@ a {
 
   font-size: 3rem;
 }
-.text-green{
+.text-green {
   color: $green;
 }
 .grid-container {
@@ -48,10 +48,19 @@ a {
   display: flex;
   flex-direction: row;
   height: 100vh;
+  @media screen and (max-width: 39.9375em) {
+    flex-direction: column;
+    text-align: center;
+    h1{
+      margin-top: 5px;
+    }
+  }
   &__container {
     height: auto;
     margin-top: auto;
     margin-bottom: auto;
+
+
     & > div {
       flex: 1 calc(50% - 15px);
       padding: 15px;
@@ -61,6 +70,13 @@ a {
       border-radius: 50%;
       max-height: 100%;
       border: 2px solid $green;
+    }
+    @media screen and (max-width: 39.9375em) {
+      img{
+        max-width: 70%;
+        margin: 0 auto;
+        display: flex;
+      }
     }
   }
 }
@@ -98,7 +114,7 @@ a {
   }
 }
 .projects {
-  h3{
+  h3 {
     margin: 1.5rem 0;
   }
   &__list {
@@ -110,12 +126,12 @@ a {
       background-color: #3d4d67;
       padding: 1rem 2rem;
       margin-bottom: 1rem;
-      box-shadow: 10px 16px 18px -5px rgba(0,0,0,0.75);
+      box-shadow: 10px 16px 18px -5px rgba(0, 0, 0, 0.75);
       position: relative;
-      transition: .3s ease all;
-      &::before{
+      transition: 0.3s ease all;
+      &::before {
         position: absolute;
-        content: '';
+        content: "";
         bottom: 0;
         left: 0;
         right: 0;
@@ -125,7 +141,7 @@ a {
         background: $orange;
         opacity: 0;
       }
-      &:hover::before{
+      &:hover::before {
         opacity: 1;
       }
     }
