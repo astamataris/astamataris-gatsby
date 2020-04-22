@@ -69,7 +69,7 @@ class Project extends React.Component {
 
                 <p>A static website using Foundation's panini framework to give an online presence to the restaurant.</p>
                 <div className="pic-container">
-                    <a href="https://apron.kitchen" target="_blank" >
+                    <a href="https://apron.cy" target="_blank" >
                         <img src={apron_img} alt="Apron" />
                     </a>
                 </div>
