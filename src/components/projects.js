@@ -53,7 +53,7 @@ class Project extends React.Component {
 
         // const repos = this.state.repos;
         return (
-            <section className="projects" id="projects">
+            <section className="projects">
                 <h2 id="projects">Live Projects</h2>
                 <h3 className="text-green">Travelorama</h3>
                 <p>
