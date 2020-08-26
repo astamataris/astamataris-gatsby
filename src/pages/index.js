@@ -12,7 +12,7 @@ const IndexPage = () => (
     <Layout>
       <SEO title="Home" />
       <section id="bio">
-        <h2  >Bio</h2>
+        <h2>Bio</h2>
         <h3 className="text-green">Accademic Background</h3>
         <p>Hi! 👋 My name is Andreas Stamataris and I’m a Front-end Web Developer. My accademic background is Computer Science and Psychology and I did my bachelor’s in Psychology (BSc) at Royal Holloway University of London and my MSc in Computer Science
           at UCL. Graduating in 2015 and 2016 respectively.
@@ -39,7 +39,7 @@ const IndexPage = () => (
         <p>I experimented with various frameworks, such as Django, React, Ember and Angular and I worked for almost a year at a startup called <a href="https://www.11pets.com/">11pets</a>, mainly working with Angular 2+. If you have a pet and need an ecosystem to help manage their care there's seriously no one better out there.
         </p>
         <h4 className="text-green">2018-Now</h4>
-        <p>In mid 2018 I was fortunate enough to join the amazing team at <a href="https://pixelactions.com" target="_blank">Pixel Actions</a>. A web development agency taking on projects of various scale. The stack there includes Django/Flask serverside, Foundation as our main CSS framework and Emberjs for platforms and internal projects. Fortunately, due to the varying requirements of jobs, we get to play with other tools and frameworks as well.</p>
+        <p>In mid 2018 I was fortunate enough to join the amazing team at <a href="https://pixelactions.com" target="_blank">Pixel Actions</a>. A web development agency taking on projects of various scale. The stack there includes Django/Flask serverside, Foundation as our main CSS framework and Emberjs for platforms and internal projects. Fortunately, due to the varying requirements of jobs, we get to play with other tools and frameworks as well such as Vue.js & React.js.</p>
       </section>
 
       <Projects />

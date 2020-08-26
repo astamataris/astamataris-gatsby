@@ -3,6 +3,7 @@ import React from "react"
 // import axios from 'axios';
 import travelorama_img from "../images/travelorama.jpg";
 import apron_img from "../images/apron.jpg";
+import myarttherapy from "../images/myarttherapy.png";
 
 
 class Project extends React.Component {
@@ -15,15 +16,15 @@ class Project extends React.Component {
         //     console.log(repos);
 
         // })
-        fetch('https://swapi.co/api/people')
-            // fetch('https://api.github.com/users/astamataris/repos')
-            .then(repos => repos.json())
-            .then((json) => {
-                console.log(json);
-                this.setState({ repos: json.results })
-                // console.log(json['results']);
+        // fetch('https://swapi.co/api/people')
+        //     // fetch('https://api.github.com/users/astamataris/repos')
+        //     .then(repos => repos.json())
+        //     .then((json) => {
+        //         console.log(json);
+        //         this.setState({ repos: json.results })
+        //         // console.log(json['results']);
 
-            })
+        //     })
     }
     // createRepoList() {
     //     let repositories = [];
@@ -52,7 +53,7 @@ class Project extends React.Component {
 
         // const repos = this.state.repos;
         return (
-            <section className="projects">
+            <section className="projects" id="projects">
                 <h2 id="projects">Live Projects</h2>
                 <h3 className="text-green">Travelorama</h3>
                 <p>
@@ -71,6 +72,14 @@ class Project extends React.Component {
                 <div className="pic-container">
                     <a href="https://apron.cy" target="_blank" >
                         <img src={apron_img} alt="Apron" />
+                    </a>
+                </div>
+                <h3 className="text-green">MyArtTherapy</h3>
+
+                <p>A statically generated website for Myrto Savvidou, an Art Psychotherapist based in Nicosia, Cyprus. The site was built with Nuxt.js and features internationalisation in English and Greek, a headless CMS blog with NetlifyCMS, a contact form handled serverlessly by Netlify, and some "makeshift" svg animations I did pretty much manually 😆.  </p>
+                <div className="pic-container">
+                    <a href="https://myarttherapy.cy" target="_blank" >
+                        <img src={myarttherapy} alt="Apron" />
                     </a>
                 </div>
 
